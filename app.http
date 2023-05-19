@@ -1,9 +1,10 @@
 //API - 1
-GET http://localhost:3000/players/
 
+GET http://localhost:3000/players/
 ###
 
 //API - 2
+
 POST http://localhost:3000/players/ 
 Content-Type: application/json
 
@@ -15,10 +16,12 @@ Content-Type: application/json
 ###
 
 //API - 3
+
 GET http://localhost:3000/players/1/
 ### 
 
 //API - 4
+
 PUT http://localhost:3000/players/3/
 Content-Type: application/json 
 
@@ -30,5 +33,6 @@ Content-Type: application/json
 ###
 
 //API - 5
+
 DELETE http://localhost:3000/players/5/
 ###
